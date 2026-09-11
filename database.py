@@ -64,21 +64,3 @@ if __name__ == "__main__":
 
     if INITIALIZE_DATABASE:
         init_database()
-
-    insert_data(
-        aircraft_type="Airbus A320-200",
-        registration="B-LPC",
-        serial_number="05147",
-        airline="Hong Kong Airlines",
-        operator="Hong Kong Airlines",
-        airport="Fukuoka Airport (FUK/RJFF)",
-        country="Japan",
-        departure_airport="Hong Kong International Airport (HKG/VHHH)",
-        arrival_airport="Fukuoka Airport (FUK/RJFF)",
-        flight_number="HX638",
-        capture_date="2026-01-09 03:04:00Z",
-        tags="Airbus, A320, Hong Kong Airlines, Fukuoka, Japan",
-        filename="B-LPC_001.png",
-        filepath="photos/originals/B-LPC_001.png",
-        thumbnail_path="photos/thumbnails/B-LPC_001.jpg"
-    )
