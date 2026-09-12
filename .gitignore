@@ -1,0 +1,15 @@
+# Ignore Secret Environment Variables
+.env
+
+# Ignore Python Virtual Environments
+.venv/
+__pycache__/
+
+# Ignore Node.js Modules (these are huge and shouldn't be backed up)
+node_modules/
+frontend/node_modules/
+
+# Ignore your actual SQLite Database (so you don't accidentally overwrite your live data!)
+data/planespotting.db
+photos/originals/
+photos/thumbnails/

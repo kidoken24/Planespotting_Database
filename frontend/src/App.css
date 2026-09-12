@@ -279,6 +279,8 @@ body {
   gap: 24px;
   flex-wrap: wrap;
   margin-top: 20px;
+  justify-content: center;  /* Centers the image and the card horizontally */
+  align-items: flex-start;  /* Keeps the card aligned to the top next to the image */
 }
 
 .detail-img {
@@ -287,6 +289,7 @@ body {
   border-radius: 16px;
   box-shadow: var(--shadow-md);
   object-fit: contain;
+  margin: 0 auto; /* Forces the image to center itself */
 }
 
 .detail-sidebar {
